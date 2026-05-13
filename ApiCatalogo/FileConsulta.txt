@@ -1,0 +1,20 @@
+
+Microsoft.EntityFrameworkCore.Design
+Microsoft.EntityFrameworkCore.Tools
+Pomelo.EntityFrameworkCore.MySql
+
+
+--Cria o script de migração
+add-migration PrimeiraMigracao
+
+--Remover a migração criada
+remove-migration Migracao
+
+--Gera o banco de dados e as tabelas com base no script de migração
+update-database
+
+
+add-migration PopulaTabelaCategoria
+add-migration PopulaTabelaProduto
+
+
