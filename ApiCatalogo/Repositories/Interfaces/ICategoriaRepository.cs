@@ -6,7 +6,7 @@ namespace ApiCatalogo.Repositories.Interfaces
     public interface ICategoriaRepository : IRepository<Categoria>
     {
         //Métodos específicos para Categoria, além dos métodos CRUD já existentes na interface genérica IRepository<T>
-        Task<Categoria> GetCategoriaAsync(CategoriasParameters categoriasParameters);
-        Task<Categoria> GetCategoriaFiltroNomeAsync(CategoriasFiltroNome categoriasFiltroNome);
+        Task<PagedList<Categoria>> GetCategoriaAsync(CategoriasParameters categoriasParameters);
+        Task<PagedList<Categoria>> GetCategoriaFiltroNomeAsync(CategoriasFiltroNome categoriasFiltroNome);
     }
 }

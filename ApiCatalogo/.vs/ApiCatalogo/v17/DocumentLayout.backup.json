@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Luiz\\Desktop\\Reposit\u00F3rios Locais\\PROJETOS\\ApiCatalogo\\ApiCatalogo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FAC96F00-9169-43F8-B1F5-BBB34D407071}|ApiCatalogo.csproj|c:\\users\\luiz\\desktop\\reposit\u00F3rios locais\\projetos\\apicatalogo\\apicatalogo\\repositories\\categoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAC96F00-9169-43F8-B1F5-BBB34D407071}|ApiCatalogo.csproj|solutionrelative:repositories\\categoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FAC96F00-9169-43F8-B1F5-BBB34D407071}|ApiCatalogo.csproj|c:\\users\\luiz\\desktop\\reposit\u00F3rios locais\\projetos\\apicatalogo\\apicatalogo\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAC96F00-9169-43F8-B1F5-BBB34D407071}|ApiCatalogo.csproj|solutionrelative:controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FAC96F00-9169-43F8-B1F5-BBB34D407071}|ApiCatalogo.csproj|c:\\users\\luiz\\desktop\\reposit\u00F3rios locais\\projetos\\apicatalogo\\apicatalogo\\repositories\\interfaces\\icategoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAC96F00-9169-43F8-B1F5-BBB34D407071}|ApiCatalogo.csproj|solutionrelative:repositories\\interfaces\\icategoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FAC96F00-9169-43F8-B1F5-BBB34D407071}|ApiCatalogo.csproj|c:\\users\\luiz\\desktop\\reposit\u00F3rios locais\\projetos\\apicatalogo\\apicatalogo\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAC96F00-9169-43F8-B1F5-BBB34D407071}|ApiCatalogo.csproj|solutionrelative:repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAC96F00-9169-43F8-B1F5-BBB34D407071}|ApiCatalogo.csproj|c:\\users\\luiz\\desktop\\reposit\u00F3rios locais\\projetos\\apicatalogo\\apicatalogo\\repositories\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAC96F00-9169-43F8-B1F5-BBB34D407071}|ApiCatalogo.csproj|solutionrelative:repositories\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAC96F00-9169-43F8-B1F5-BBB34D407071}|ApiCatalogo.csproj|c:\\users\\luiz\\desktop\\reposit\u00F3rios locais\\projetos\\apicatalogo\\apicatalogo\\repositories\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAC96F00-9169-43F8-B1F5-BBB34D407071}|ApiCatalogo.csproj|solutionrelative:repositories\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAC96F00-9169-43F8-B1F5-BBB34D407071}|ApiCatalogo.csproj|c:\\users\\luiz\\desktop\\reposit\u00F3rios locais\\projetos\\apicatalogo\\apicatalogo\\pagination\\produtosfiltropreco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAC96F00-9169-43F8-B1F5-BBB34D407071}|ApiCatalogo.csproj|solutionrelative:pagination\\produtosfiltropreco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAC96F00-9169-43F8-B1F5-BBB34D407071}|ApiCatalogo.csproj|c:\\users\\luiz\\desktop\\reposit\u00F3rios locais\\projetos\\apicatalogo\\apicatalogo\\repositories\\interfaces\\iprodutorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAC96F00-9169-43F8-B1F5-BBB34D407071}|ApiCatalogo.csproj|solutionrelative:repositories\\interfaces\\iprodutorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +39,79 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CategoriaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Luiz\\Desktop\\Reposit\u00F3rios Locais\\PROJETOS\\ApiCatalogo\\ApiCatalogo\\Repositories\\CategoriaRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\CategoriaRepository.cs",
-              "ToolTip": "C:\\Users\\Luiz\\Desktop\\Reposit\u00F3rios Locais\\PROJETOS\\ApiCatalogo\\ApiCatalogo\\Repositories\\CategoriaRepository.cs",
-              "RelativeToolTip": "Repositories\\CategoriaRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAwAAAAAAAAAA==",
+              "Title": "ProdutosController.cs",
+              "DocumentMoniker": "C:\\Users\\Luiz\\Desktop\\Reposit\u00F3rios Locais\\PROJETOS\\ApiCatalogo\\ApiCatalogo\\Controllers\\ProdutosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProdutosController.cs",
+              "ToolTip": "C:\\Users\\Luiz\\Desktop\\Reposit\u00F3rios Locais\\PROJETOS\\ApiCatalogo\\ApiCatalogo\\Controllers\\ProdutosController.cs",
+              "RelativeToolTip": "Controllers\\ProdutosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T20:48:36.022Z",
+              "WhenOpened": "2026-05-14T20:46:58.926Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ICategoriaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Luiz\\Desktop\\Reposit\u00F3rios Locais\\PROJETOS\\ApiCatalogo\\ApiCatalogo\\Repositories\\Interfaces\\ICategoriaRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\Interfaces\\ICategoriaRepository.cs",
-              "ToolTip": "C:\\Users\\Luiz\\Desktop\\Reposit\u00F3rios Locais\\PROJETOS\\ApiCatalogo\\ApiCatalogo\\Repositories\\Interfaces\\ICategoriaRepository.cs",
-              "RelativeToolTip": "Repositories\\Interfaces\\ICategoriaRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAAAAAAAAAAAA==",
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\Luiz\\Desktop\\Reposit\u00F3rios Locais\\PROJETOS\\ApiCatalogo\\ApiCatalogo\\Repositories\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "Repositories\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\Luiz\\Desktop\\Reposit\u00F3rios Locais\\PROJETOS\\ApiCatalogo\\ApiCatalogo\\Repositories\\UnitOfWork.cs",
+              "RelativeToolTip": "Repositories\\UnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T20:45:34.501Z",
+              "WhenOpened": "2026-05-14T20:35:24.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\Luiz\\Desktop\\Reposit\u00F3rios Locais\\PROJETOS\\ApiCatalogo\\ApiCatalogo\\Repositories\\Interfaces\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\Luiz\\Desktop\\Reposit\u00F3rios Locais\\PROJETOS\\ApiCatalogo\\ApiCatalogo\\Repositories\\Interfaces\\IUnitOfWork.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T20:34:13.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProdutosFiltroPreco.cs",
+              "DocumentMoniker": "C:\\Users\\Luiz\\Desktop\\Reposit\u00F3rios Locais\\PROJETOS\\ApiCatalogo\\ApiCatalogo\\Pagination\\ProdutosFiltroPreco.cs",
+              "RelativeDocumentMoniker": "Pagination\\ProdutosFiltroPreco.cs",
+              "ToolTip": "C:\\Users\\Luiz\\Desktop\\Reposit\u00F3rios Locais\\PROJETOS\\ApiCatalogo\\ApiCatalogo\\Pagination\\ProdutosFiltroPreco.cs",
+              "RelativeToolTip": "Pagination\\ProdutosFiltroPreco.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T20:25:30.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProdutoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Luiz\\Desktop\\Reposit\u00F3rios Locais\\PROJETOS\\ApiCatalogo\\ApiCatalogo\\Repositories\\ProdutoRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ProdutoRepository.cs",
+              "ToolTip": "C:\\Users\\Luiz\\Desktop\\Reposit\u00F3rios Locais\\PROJETOS\\ApiCatalogo\\ApiCatalogo\\Repositories\\ProdutoRepository.cs",
+              "RelativeToolTip": "Repositories\\ProdutoRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAQwDEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T20:19:15.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IProdutoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Luiz\\Desktop\\Reposit\u00F3rios Locais\\PROJETOS\\ApiCatalogo\\ApiCatalogo\\Repositories\\Interfaces\\IProdutoRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IProdutoRepository.cs",
+              "ToolTip": "C:\\Users\\Luiz\\Desktop\\Reposit\u00F3rios Locais\\PROJETOS\\ApiCatalogo\\ApiCatalogo\\Repositories\\Interfaces\\IProdutoRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IProdutoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T20:05:34.704Z",
               "EditorCaption": ""
             },
             {

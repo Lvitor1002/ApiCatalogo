@@ -13,14 +13,23 @@ namespace ApiCatalogo.Repositories
 
 
         //Métodos específicos(CONCRETOS) para Categoria
-        public Task<Categoria> GetCategoriaAsync(CategoriasParameters categoriasParameters)
+        public async Task<PagedList<Categoria>> GetCategoriaAsync(CategoriasParameters categoriasParameters)
         {
-            throw new NotImplementedException();
+            var categorias = await GetAllAsync();
+
+            var categoriasOrdenadas = categorias.OrderBy(c=>c.CategoriaID).AsQueryable();
+
+            return PagedList<Categoria>.ToPageList(categoriasOrdenadas, categoriasParameters.PageNumber, categoriasParameters.PageSize); ;
         }
 
-        public Task<Categoria> GetCategoriaFiltroNomeAsync(CategoriasFiltroNome categoriasFiltroNome)
+        public async Task<PagedList<Categoria>> GetCategoriaFiltroNomeAsync(CategoriasFiltroNome categoriasFiltroNome)
         {
-            throw new NotImplementedException();
+            var categorias = await GetAllAsync();
+
+            if(!string.IsNullOrEmpty(categoriasFiltroNome.Nome))
+                categorias = categorias.Where(c=>c.Nome.ToLower().Contains(categoriasFiltroNome.Nome.ToLower()));
+            
+            return PagedList<Categoria>.ToPageList(categorias.AsQueryable(), categoriasFiltroNome.PageNumber, categoriasFiltroNome.PageSize);
         }
     }
 }
