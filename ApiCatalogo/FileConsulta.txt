@@ -2,6 +2,7 @@
 Microsoft.EntityFrameworkCore.Design
 Microsoft.EntityFrameworkCore.Tools
 Pomelo.EntityFrameworkCore.MySql
+AutoMapper
 
 
 --Cria o script de migração
