@@ -120,3 +120,5 @@ C:\Users\Luiz\Desktop\Repositórios Locais\PROJETOS\ApiCatalogo\ApiCatalogo\obj\
 C:\Users\Luiz\Desktop\Repositórios Locais\PROJETOS\ApiCatalogo\ApiCatalogo\obj\Debug\net9.0\ApiCatalogo.pdb
 C:\Users\Luiz\Desktop\Repositórios Locais\PROJETOS\ApiCatalogo\ApiCatalogo\obj\Debug\net9.0\ApiCatalogo.genruntimeconfig.cache
 C:\Users\Luiz\Desktop\Repositórios Locais\PROJETOS\ApiCatalogo\ApiCatalogo\obj\Debug\net9.0\ref\ApiCatalogo.dll
+C:\Users\Luiz\Desktop\Repositórios Locais\PROJETOS\ApiCatalogo\ApiCatalogo\bin\Debug\net9.0\AutoMapper.dll
+C:\Users\Luiz\Desktop\Repositórios Locais\PROJETOS\ApiCatalogo\ApiCatalogo\bin\Debug\net9.0\Newtonsoft.Json.dll

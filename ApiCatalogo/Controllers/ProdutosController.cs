@@ -5,6 +5,7 @@ using ApiCatalogo.Pagination;
 using ApiCatalogo.Repositories.Interfaces;
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 
 namespace ApiCatalogo.Controllers
 {
@@ -132,7 +133,7 @@ namespace ApiCatalogo.Controllers
                 produtos.HasPrevious
             };
 
-            Response.Headers.Append("X-Pagination", JsonSerializer.Serialize(metadado));
+            Response.Headers.Append("X-Pagination", JsonConvert.SerializeObject(metadado));
 
             return Ok(_mapper.Map<IEnumerable<ProdutoDTO>>(produtos));
         }

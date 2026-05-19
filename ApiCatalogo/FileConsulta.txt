@@ -3,6 +3,8 @@ Microsoft.EntityFrameworkCore.Design
 Microsoft.EntityFrameworkCore.Tools
 Pomelo.EntityFrameworkCore.MySql
 AutoMapper
+Newtonsoft.Json
+Swashbuckle.AspNetCore
 
 
 --Cria o script de migração
